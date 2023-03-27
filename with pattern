@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+<body style="background-color:#89CFF0;">
+<hr>
+<h1  align="center" style="color:white;"><a href="https://www.google.com/maps/place/Лычаковское+кладбище/@49.832526,24.0510484,16z/data=!4m6!3m5!1s0x473add4f68c422d3:0x1d56256364fa4cc0!8m2!3d49.8324603!4d24.056091!16zL20vMDJsd2xo">Резервація місць на цвинтарі</a></h1>
+<center><img src="https://kor.ill.in.ua/m/610x385/2469766.jpg" style="width:500px;height:300px;" ></center>
+<p align="center" style="color:white;">Зарезервувати місце</p>
+<form action="/action_page.php">
+ <center> <label for="fname">Прізвище:</label></center>
+ <center> <input type="text" id="fname" name="fname" pattern="[a-z]{1,15}" title="fname should only contain  letters."><br><br></center>
+  <center><label for="lname">Ім'я:</label></center>
+ <center> <input type="text" id="lname" name="lname" pattern="[a-z]{1,15}" title="lname should only contain  letters."><br><br></center>
+ <center> <label for="fname">Дата:</label></center>
+  <center><input type="text" id="data" name="data" pattern="[a-z]{1,15}" title="data should only contain numbers."><br><br></center>
+</form>
+<center><button onclick="myFunction()">Тиць!</button></center>
+
+<script>
+function myFunction() {
+  alert("Місце зарезервовано");
+}
+</script>
+<hr>
+<footer>
+       <center> <p>© 2022 EPAM</p></center>
+    </footer>
+</body>
+</html>
